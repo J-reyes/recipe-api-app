@@ -17,7 +17,7 @@ services:
       - DB_HOST=db
       - DB_NAME=devdb
       - DB_USER=devuser
-      - DB_PASS_changeme
+      - DB_PASS=changeme
     depends_on:
     # tells dockr compose that the app depends on the db service
       - db
